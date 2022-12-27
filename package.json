@@ -23,6 +23,9 @@
   "dependencies": {
     "chai": "^4.2.0",
     "colors": "^1.4.0",
+    "debug": "^3.2.7",
+    "flat": "^4.1.1",
+    "mkdirp": "^1.0.3",
     "mocha": "^6.2.2",
     "semver": "^6.3.0"
   }

@@ -36,7 +36,7 @@ module.exports = function toReadable (number) {
         return singleNumber[stringNumber[0]] + " " + multiNumber[0] + " " + multiNumber[stringNumber[1]];
     }
 
-     if (stringNumber.length == 3 & stringNumber[1] > 2) {
+     if (stringNumber.length == 3 & stringNumber[1] >= 2) {
             return singleNumber[stringNumber[0]] + " " + multiNumber[0] + " " + multiNumber[stringNumber[1]] + " " + singleNumber[stringNumber[2]];
     }
 }
